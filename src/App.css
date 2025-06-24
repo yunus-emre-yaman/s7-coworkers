@@ -1,0 +1,79 @@
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #fef4d2;
+}
+
+.mid-container {
+  width: 96%;
+  max-width: 840px;
+  max-height: 80%;
+  margin: auto auto;
+  padding: 0.5rem;
+  background-color: #8483f8;
+  border-radius: 1.5rem;
+  display: flex;
+}
+
+.form-container {
+  flex: 3;
+  color: #fff;
+  padding: 1.75rem 1.5rem;
+}
+
+.form-container h2 {
+  color: #090960;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.list-container {
+  flex: 4;
+  padding: 2rem 2rem 1.5rem 2rem;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  overflow: auto;
+}
+
+.list-container h2 {
+  color: #474647;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+.person-initials {
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fef4d3;
+  color: #1b15d9;
+}
+
+.person-infos h3 {
+  line-height: 1;
+  font-size: 1.125rem;
+  margin-bottom: 4px;
+}
+
+.form-container button {
+  background-color: #090960;
+  border: 0;
+  font-weight: bold;
+}
+
+.form-container button:hover {
+  background-color: black;
+}
