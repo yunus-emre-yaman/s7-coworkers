@@ -99,10 +99,7 @@ export default class Reporter {
     for (const relPath of this.fileList) {
       try {
         const absPath = path.resolve(process.cwd(), relPath);
-        const isFileExist = fs.existsSync(absPath);
-        const content = isFileExist
-          ? await fs.readFile(absPath, "utf-8")
-          : null;
+        const content = await fs.readFile(absPath, "utf-8");
         codefiles[relPath] = content;
       } catch (err) {
         codefiles[relPath] = `Error reading file: ${err.message}`;
