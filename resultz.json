@@ -1,4 +1,45 @@
 {
-  "stats": "0 passed, 0 failed out of 0",
-  "tests": []
+  "stats": "7 passed, 3 failed out of 10",
+  "tests": [
+    {
+      "name": "reactstrap ve bootstrap paketleri kurulmuş mu?",
+      "state": "pass"
+    },
+    {
+      "name": "App.jsx'e bootstrap css'i dokümantasyondaki gibi import edilmiş mi?",
+      "state": "pass"
+    },
+    {
+      "name": "App içinde handleAddMember adında bir fonksiyon tanımlanmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "NewMemberForm componenti oluşturulmuş mu?",
+      "state": "pass"
+    },
+    {
+      "name": "NewMemberForm içinde reactstrap form elemanları (Form, FormGroup, Label, Input) kullanılmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "NewMemberForm formu submit edildiğinde addMember doğru veriyle çağrılıyor ve axios doğru adrese istek atıyor mu?",
+      "state": "fail"
+    },
+    {
+      "name": "Kullanıcı başarılı response sonrası state'e ekleniyor mu?",
+      "state": "pass"
+    },
+    {
+      "name": "Form submit sonrası başarılı response ile form sıfırlanıyor mu?",
+      "state": "fail"
+    },
+    {
+      "name": "CoworkerList.jsx componentı oluşturulmuş mu?",
+      "state": "pass"
+    },
+    {
+      "name": "CoworkerList render edildiğinde Coworker bileşenlerini gösteriyor mu?",
+      "state": "fail"
+    }
+  ]
 }
